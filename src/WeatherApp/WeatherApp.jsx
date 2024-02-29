@@ -101,6 +101,7 @@ const WeatherApp = () => {
 				{/* We can't display any data if our weatherData is empty. So we use conditional rendering. Our data will display as long as our weatherData state is true */}
 				{weatherData && (
 					<div className='flex flex-col items-center my-4 mb-2'>
+						<p className='text-xl py-2'>{weatherData.weather[0].description}</p>
 						{/* display our correlated weather forecast icon */}
 						<div className='bg-blue-200 p-2 rounded-full mb-4 shadow-xl'>
 							<img
