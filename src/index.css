@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+	height: 100vh;
+	background-color: #fef3e8; /* Light orange background */
+	background-image: linear-gradient(
+		to bottom,
+		#fef3e8,
+		#f9c88f
+	); /* Gradient from light orange to deeper orange */
+	font-family: Arial, sans-serif;
+	color: #333; /* Dark gray text color */
+}
